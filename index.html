@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS STOP WATCH</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 class="text-center">JS STOP WATCH</h1>
+
+    <div class="tags">
+        <h1 class="shadow-lg" id="min">0</h1>
+        <h1 class="shadow-lg" id="sec">0</h1>
+        <h1 class="shadow-lg " id="msec">0</h1>
+    </div>
+
+    <div>
+        <button type="button" onclick="start();this.disabled=true" id="start" class="btn btn-warning  ">Start</button>
+        <button type="button" onclick="paused();" id="pause" class="btn btn-warning ">Pause</button>
+        <button type="button" onclick="reset()" class="btn btn-warning ">Reset</button>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
